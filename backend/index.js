@@ -51,7 +51,7 @@ app.get('/weather', (request, response) => {
 })
 
 app.get('/list', (request, response) => {
-  response.set('Access-Control-Allow-Origin', '*')   
+  // response.set('Access-Control-Allow-Origin', '*')   
   let search = request.query
   let lat = search.lat
   let lng = search.lng
