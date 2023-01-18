@@ -35,8 +35,8 @@ and back-end running at the same time. You will
 also need an API key:
 
 - In the `backend` folder, rename `.env.sample` to .env
+- Generate an API key at https://openweathermap.org/ 
 - Generate an API key at https://openweathermap.org/
-- - Generate an API key at https://openweathermap.org/
 - Add your API key to `backend/.env`
 
 ### Install dependencies
