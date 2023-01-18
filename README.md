@@ -1,11 +1,17 @@
 # weather-app
 
-**The common functionalities are:**
+**The common functionalities are:
 * The user can see weather for various cities
 * The user can track and untrack the weather for saved cities
 * The user can see the hourly/weekly/daily forecast for cities
 
 I'm using [openweather Api](url) to get weather metrics and [Mabbox API](url) to get coordinates for cities bases of city names
+
+**Built With
+* Vue
+* Node js
+* Express js
+* Tailwind css
 
 ## Recommended IDE Setup
 
