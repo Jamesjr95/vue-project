@@ -1,6 +1,11 @@
 # weather-app
 
-This template should help get you started developing with Vue 3 in Vite.
+**The common functionalities are:**
+* The user can see weather for various cities
+* The user can track and untrack the weather for saved cities
+* The user can see the hourly/weekly/daily forecast for cities
+
+I'm using [openweather Api](url) to get weather metrics and [Mabbox API](url) to get coordinates for cities bases of city names
 
 ## Recommended IDE Setup
 
