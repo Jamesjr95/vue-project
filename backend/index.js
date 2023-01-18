@@ -2,8 +2,11 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const port = 3000
+const cors = require('cors')
 var qs = require('qs')
 const axios = require('axios')
+
+app.use(cors())
 
 
 const mapBoxUrl = 'https://api.mapbox.com/geocoding/v5/mapbox.places/'
