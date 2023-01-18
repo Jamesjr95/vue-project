@@ -1,6 +1,17 @@
-# vue-project
+# weather-app
 
-This template should help get you started developing with Vue 3 in Vite.
+**The common functionalities are:**
+* The user can see weather for various cities
+* The user can track and untrack the weather for saved cities
+* The user can see the hourly/weekly/daily forecast for cities
+
+I'm using [openweather Api](url) to get weather metrics and [Mabbox API](url) to get coordinates for cities bases of city names
+
+**Built With**
+* Vue
+* Node js
+* Express js
+* Tailwind css
 
 ## Recommended IDE Setup
 
@@ -35,7 +46,8 @@ and back-end running at the same time. You will
 also need an API key:
 
 - In the `backend` folder, rename `.env.sample` to .env
-- Generate an API key at https://openweathermap.org/
+- Generate an API key at https://openweathermap.org/ 
+- Generate an API key at https://docs.mapbox.com/
 - Add your API key to `backend/.env`
 
 ### Install dependencies
