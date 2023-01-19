@@ -1,4 +1,4 @@
-[Localweatherwatch]([url](https://localweatherwatch.netlify.app/)) is a site where you can view the weather.
+[Localweatherwatch](https://localweatherwatch.netlify.app/) is a site where you can view the weather.
 
 ## Features:
 * The user can see weather for various cities
