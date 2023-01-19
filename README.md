@@ -1,6 +1,7 @@
 Localweatherwatch is a site where you can view the weather.
 
-![image](https://localweatherwatch.netlify.app/)
+![image](https://user-images.githubusercontent.com/92341570/213556691-e8b69223-ffdc-498c-82ff-d41383dbf87f.png)
+(https://localweatherwatch.netlify.app/)
 
 ## Features:
 * The user can see weather for various cities
