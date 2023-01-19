@@ -18,21 +18,21 @@ const openWeatherUrl = 'https://api.openweathermap.org/data/3.0/onecall'
 const openWeatherUrl2 = 'https://api.openweathermap.org/data/2.5/weather'
 const weatherApiKey = process.env.WEATHER_API_KEY
 
-app.get('/', (request, response) => {
-  response.set('Access-Control-Allow-Origin', '*')
-  console.log(request.query);
-  let search = request.query.q
+// app.get('/', (request, response) => {
+//   response.set('Access-Control-Allow-Origin', '*')
+//   console.log(request.query);
+//   let search = request.query.q
 
-  axios(`${mapBoxUrl}/${search}?access_token=${ mapApiKey }&types=place`).then(res=>{
-    console.log(res.data);
-    response.send(res.data)
-  })
-  .catch(error=>{
-    console.log(error);
-    response.send(error.message)
-  })
+//   axios(`${mapBoxUrl}/${search}?access_token=$pk.eyJ1IjoiamF5MTk5NSIsImEiOiJjbGNrcnRpM2cwMjQ3M29ubTc5cjMyajFtIn0.hwGbM_Dn8EHwnnAFtBqvyQ&types=place`).then(res=>{
+//     console.log(res.data);
+//     response.send(res.data)
+//   })
+//   .catch(error=>{
+//     console.log(error);
+//     response.send(error.message)
+//   })
 
-})
+// })
 
 app.get('/weather', (request, response) => {
   response.set('Access-Control-Allow-Origin', '*')    

@@ -77,7 +77,8 @@ const getSearchResults = () => {
   queryTimeout.value = setTimeout(async () => {
     if (searchQuery.value !== ''){
       try {
-        const result = await axios.get(`${apiUrl}?q=${searchQuery.value}.json`)
+        // const result = await axios.get(`${apiUrl}?q=${searchQuery.value}.json`)
+        const result = await axios.get(`https://api.mapbox.com/geocoding/v5/mapbox.places/${searchQuery.value}?access_token=pk.eyJ1IjoiamF5MTk5NSIsImEiOiJjbGNrcnRpM2cwMjQ3M29ubTc5cjMyajFtIn0.hwGbM_Dn8EHwnnAFtBqvyQ&types=place`)
         searchResults.value = result.data.features;
       } catch {
         searchError.value = true
