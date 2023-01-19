@@ -119,7 +119,7 @@ const apiUrl = 'http://localhost:3000/weather'
 const getWeatherData = async () => {
     try {
         // const weatherData = await axios.get(`${apiUrl}?lat=${route.query.lat}&lng=${route.query.lng}`)
-        const weatherData = await axios.get(`https://api.openweathermap.org/data/3.0/onecall?lat=${route.query.lat}&lng=${route.query.lng}&exclude={part}&appid=1746e1855001cb913468b307e36f45d4&units=imperial`)
+        const weatherData = await axios.get(`https://api.openweathermap.org/data/3.0/onecall?lat=${route.query.lat}&lon=${route.query.lng}&exclude={part}&appid=1746e1855001cb913468b307e36f45d4&units=imperial`)
         console.log(weatherData);
         
         // calculating the date & time
