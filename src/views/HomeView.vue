@@ -77,7 +77,11 @@ const getSearchResults = () => {
   queryTimeout.value = setTimeout(async () => {
     if (searchQuery.value !== ''){
       try {
-        const result = await axios.get(`${apiUrl}?q=${searchQuery.value}.json`);
+        const result = await axios.get(`${apiUrl}?q=${searchQuery.value}.json`,{ 
+          headers: {
+            'Access-Control-Allow-Origin': '*' // Could work and fix the previous problem, but not in all APIs
+          },
+        });
         searchResults.value = result.data.features;
       } catch {
         searchError.value = true
