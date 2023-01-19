@@ -6,7 +6,20 @@ const cors = require('cors')
 var qs = require('qs')
 const axios = require('axios')
 
-app.use(cors())
+const allowedOrigins = ['http://localhost:3000', 'https://localweatherwatch.netlify.app/']
+app.use(cors({
+  origin: function(origin, callback){
+    // allow requests with no origin
+    // (like mobile apps or curl requests)
+    if(!origin) return callback(null, true);
+    if(allowedOrigins.indexOf(origin) === -1){
+      let msg = 'The CORS policy for this site does not ' +
+        'allow access from the specified Origin.';
+      return callback(new Error(msg), false);
+    }
+    return callback(null, true);
+  }
+}))
 
 
 const mapBoxUrl = 'https://api.mapbox.com/geocoding/v5/mapbox.places/'
