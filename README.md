@@ -14,7 +14,9 @@
 
 ## Todos
 1. Improve user experience by adding loading animation when viewing cities
-2. Add ability to 
+~~2. Add ability to save cities~~
+~~3. show weekly forecast~~
+3. Add support for celsius
 
 ## Recommended IDE Setup
 
