@@ -114,7 +114,7 @@ import {useRoute, useRouter} from 'vue-router'
 
 const route = useRoute();
 
-const apiUrl = 'https://localweatherwatch.netlify.app/'
+const apiUrl = 'http://localhost:3000/weather'
 
 const getWeatherData = async () => {
     try {
