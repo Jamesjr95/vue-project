@@ -6,7 +6,7 @@ const cors = require('cors')
 var qs = require('qs')
 const axios = require('axios')
 
-// app.use(cors())
+app.use(cors())
 
 
 const mapBoxUrl = 'https://api.mapbox.com/geocoding/v5/mapbox.places/'
