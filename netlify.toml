@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "http://localhost:3000/"
-  to = "https://localweatherwatch.netlify.app/"
+  from = "https://localweatherwatch.netlify.app/"
+  to = "http://localhost:3000/"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
