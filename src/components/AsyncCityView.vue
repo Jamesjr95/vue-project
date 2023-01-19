@@ -119,7 +119,7 @@ const apiUrl = 'http://localhost:3000/weather'
 const getWeatherData = async () => {
     try {
         const weatherData = await axios.get(`${apiUrl}?lat=${route.query.lat}&lng=${route.query.lng}`)
-        // console.log(weatherData);
+        console.log(weatherData);
         
         // calculating the date & time
         // converting the offset to milliseconds
