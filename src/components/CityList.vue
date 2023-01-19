@@ -24,7 +24,8 @@ const getCities = async () => {
     const requests = []
     savedCities.value.forEach((city) => {
         requests.push(
-            axios.get(`${apiUrl}?lat=${city.coords.lat}&lng=${city.coords.lng}`)
+            // axios.get(`${apiUrl}?lat=${city.coords.lat}&lng=${city.coords.lng}`)
+            axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${city.coords.lat}&lon=${city.coords.lng}&appid=1746e1855001cb913468b307e36f45d4&units=imperial`)
         )
     })
 
