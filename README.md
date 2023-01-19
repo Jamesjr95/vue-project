@@ -1,11 +1,11 @@
 Localweatherwatch is a site where you can view the weather.
 
-## The common functionalities are:
+## Features:
 * The user can see weather for various cities
 * The user can track and untrack the weather for saved cities
 * The user can see the hourly/weekly/daily forecast for cities
-
-I'm using [openweather Api](url) to get weather metrics and [Mabbox API](url) to get coordinates for cities bases of city names
+* Simple modern design based on the Tilwind css framework
+* Built to be mobile friendly
 
 ## Built With
 * Vue
