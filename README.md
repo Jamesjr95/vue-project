@@ -10,7 +10,6 @@ I'm using [openweather Api](url) to get weather metrics and [Mabbox API](url) to
 **Built With**
 * Vue
 * Node js
-* Express js
 * Tailwind css
 
 ## Recommended IDE Setup
