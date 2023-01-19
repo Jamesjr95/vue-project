@@ -1,5 +1,10 @@
+[[redirects]]
+  from = "http://localhost:3000/?q=t.json"
+  to = "https://localweatherwatch.netlify.app/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
 [[headers]]
-  # Define which paths this specific [[headers]] block will cover.
   for = "/*"
-    [headers.values]
+  [headers.values]
     Access-Control-Allow-Origin = "*"
