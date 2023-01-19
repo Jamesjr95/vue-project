@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "http://localhost:3000"
+  to = “https://localweatherwatch.netlify.app/"
+  status = 200
