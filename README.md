@@ -1,6 +1,6 @@
-Localweatherwatch is a site where you can view the weather.
+[Localweatherwatch](url) is a site where you can view the weather.
 
-![image](https://user-images.githubusercontent.com/92341570/213556691-e8b69223-ffdc-498c-82ff-d41383dbf87f.png)
+![image]([https://user-images.githubusercontent.com/92341570/213556691-e8b69223-ffdc-498c-82ff-d41383dbf87f.png]([url](https://localweatherwatch.netlify.app/)))
 (https://localweatherwatch.netlify.app/)
 
 ## Features:
