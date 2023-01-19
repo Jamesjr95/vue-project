@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://localweatherwatch.netlify.app/"
-  to = "http://localhost:3000"
+  from = "http://localhost:3000"
+  to = "https://localweatherwatch.netlify.app/"
   status = 301
   force = true
