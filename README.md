@@ -1,6 +1,6 @@
 ## <p align="center">Weather App</p>
 
-[![](screenshot/loc-weather.PN)](https://localweatherwatch.netlify.app/)
+[![](screenshot/loc-weather.PNG)](https://localweatherwatch.netlify.app/)
 
 ## Features:
 * The user can see weather for various cities
