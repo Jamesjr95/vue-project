@@ -1,17 +1,22 @@
-# weather-app
+[Localweatherwatch](https://localweatherwatch.netlify.app/) is a site where you can view the weather.
 
-**The common functionalities are:**
+## Features:
 * The user can see weather for various cities
 * The user can track and untrack the weather for saved cities
 * The user can see the hourly/weekly/daily forecast for cities
+* Simple modern design based on the Tailwind css framework
+* Built to be mobile friendly
 
-I'm using [openweather Api](url) to get weather metrics and [Mabbox API](url) to get coordinates for cities bases of city names
-
-**Built With**
+## Built With
 * Vue
 * Node js
-* Express js
 * Tailwind css
+
+## Todos
+1. Improve user experience by adding loading animation when viewing cities
+2. ~~Add ability to save cities~~
+3. ~~show weekly forecast~~
+3. Add support for celsius
 
 ## Recommended IDE Setup
 
@@ -27,37 +32,15 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Compile and Minify for Production
 
 ```sh
 npm run build
 ```
 
-## Backend Setup
-
-For this project, you need both the front-end
-and back-end running at the same time. You will
-also need an API key:
-
-- In the `backend` folder, rename `.env.sample` to .env
-- Generate an API key at https://openweathermap.org/ 
-- Generate an API key at https://docs.mapbox.com/
-- Add your API key to `backend/.env`
-
-### Install dependencies
-
-```
-cd backend
-npm install
-```
-
-### Launch the backend
-```
-nodemon index.js
-```
