@@ -4,7 +4,7 @@
 * The user can see weather for various cities
 * The user can track and untrack the weather for saved cities
 * The user can see the hourly/weekly/daily forecast for cities
-* Simple modern design based on the Tilwind css framework
+* Simple modern design based on the Tailwind css framework
 * Built to be mobile friendly
 
 ## Built With
