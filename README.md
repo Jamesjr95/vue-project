@@ -9,19 +9,18 @@
 * Simple modern design based on the Tailwind css framework
 * Built to be mobile friendly
 
-## Built With
+## Built With:
 * Vue
 * Node js
 * Tailwind css
 
-## Todos
-1. Improve user experience by adding loading animation when viewing cities
-2. ~~Add ability to save cities~~
-3. ~~show weekly forecast~~
+## Todos:
+1. ~~Add ability to save cities~~
+2. ~~show weekly forecast~~
 3. Add support for celsius
+4. Improve user experience by adding loading animation when viewing cities
 
-## Recommended IDE Setup
-
+## Recommended IDE Setup:
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
 ## Customize configuration
