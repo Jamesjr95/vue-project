@@ -1,4 +1,6 @@
-## <p align="center">Weather App</p>
+## Project Name
+
+Weather Watch
 
 [![](screenshot/loc-weather-1.PNG)](https://localweatherwatch.netlify.app/)
 
