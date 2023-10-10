@@ -4,48 +4,51 @@ Weather Watch
 
 [![](screenshot/loc-weather-1.PNG)](https://localweatherwatch.netlify.app/)
 
-Core Functionalities:
+Explore the real-time meteorological details with _Weather Watch_, your digital window to global weather insights.
 
-Dynamic Weather Metrics: Obtain intricate weather details for an array of global cities.
-City Weather Profiling: Effortlessly track and de-register cities from your personalized monitoring list.
-Granular Forecasting: Experience detailed forecasting capabilities with hourly, daily, and weekly meteorological breakdowns.
-Responsive Design Architecture: Boasts an elegant, modern interface built atop the Tailwind CSS framework, ensuring an optimal viewing experience on all devices.
+### 🚀 **Core Functionalities**
 
-Technological Stack:
+- **Dynamic Weather Metrics**: Obtain intricate weather particulars for cities globally.
+- **City Weather Profiling**: Seamlessly track or remove cities from your personalized watchlist.
+- **Granular Forecasting**: Delve into detailed forecasts with hourly, daily, and weekly breakdowns.
+- **Responsive Design Architecture**: Experience a refined, modern design powered by the Tailwind CSS framework, optimized for all device dimensions.
 
-Frontend Framework: Vue.js, providing a reactive and component-oriented user interface.
-Backend Infrastructure: Node.js, enabling efficient data processing and API management.
-Styling & UI: Leveraging Tailwind CSS for its utility-first paradigm, ensuring a modular and scalable design.
+### 🧰 **Technological Stack**
 
-Development Roadmap:
+- **Frontend Framework**: [Vue.js](https://vuejs.org/), offering a reactive and component-driven UI.
+- **Backend Infrastructure**: [Node.js](https://nodejs.org/), facilitating efficient data operations and API integrations.
+- **Styling & UI**: Employing [Tailwind CSS](https://tailwindcss.com/) for a utility-first design approach, ensuring modular and adaptable aesthetics.
 
-~~Implement city registration feature.~~
-~~Integrate weekly forecasting module.~~
-Introduce Celsius temperature metric.
-Enhance UI interactivity with sleek loading animations for city data retrieval.
+### 📌 **Development Roadmap**
 
-Suggested Development Environment:
+- [x] Implement city registration feature.
+- [x] Embed weekly forecasting functionality.
+- [ ] Facilitate support for Celsius metrics.
+- [ ] Augment UI responsiveness with loading animations during city data fetching.
+
+### 💡 **Suggested Development Environment**
 
 For an optimal development experience, utilize VSCode coupled with Volar for Vue.js development. It's advisable to deactivate Vetur in favor of TypeScript Vue Plugin (Volar).
 Configurations & Customizations:
 
+### ⚙️ **Configurations & Customizations**
+
 For advanced configurations and integrations, refer to the Vite Configuration Reference.
 Local Development Instructions:
 
-Project Initialization:
+### 🛠️ **Local Development Instructions**
 
-sh
+#### **Project Initialization**
+\```sh
+npm install
+\```
 
-    npm install
+#### **Development Mode with Hot Reloading**
+\```sh
+npm run dev
+\```
 
-Development Mode with Hot Reloading:
-
-sh
-
-    npm run dev
-
-Production Build & Optimization:
-
-sh
-
-    npm run build
+#### **Production Build & Minification**
+\```sh
+npm run build
+\```
