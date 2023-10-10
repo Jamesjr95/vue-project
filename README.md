@@ -6,16 +6,16 @@ Weather Watch
 
 Core Functionalities:
 
-    Dynamic Weather Metrics: Obtain intricate weather details for an array of global cities.
-    City Weather Profiling: Effortlessly track and de-register cities from your personalized monitoring list.
-    Granular Forecasting: Experience detailed forecasting capabilities with hourly, daily, and weekly meteorological breakdowns.
-    Responsive Design Architecture: Boasts an elegant, modern interface built atop the Tailwind CSS framework, ensuring an optimal viewing experience on all devices.
+Dynamic Weather Metrics: Obtain intricate weather details for an array of global cities.
+City Weather Profiling: Effortlessly track and de-register cities from your personalized monitoring list.
+Granular Forecasting: Experience detailed forecasting capabilities with hourly, daily, and weekly meteorological breakdowns.
+Responsive Design Architecture: Boasts an elegant, modern interface built atop the Tailwind CSS framework, ensuring an optimal viewing experience on all devices.
 
 Technological Stack:
 
-    Frontend Framework: Vue.js, providing a reactive and component-oriented user interface.
-    Backend Infrastructure: Node.js, enabling efficient data processing and API management.
-    Styling & UI: Leveraging Tailwind CSS for its utility-first paradigm, ensuring a modular and scalable design.
+Frontend Framework: Vue.js, providing a reactive and component-oriented user interface.
+Backend Infrastructure: Node.js, enabling efficient data processing and API management.
+Styling & UI: Leveraging Tailwind CSS for its utility-first paradigm, ensuring a modular and scalable design.
 
 Development Roadmap:
 
