@@ -39,16 +39,18 @@ Local Development Instructions:
 ### **Local Development Instructions**
 
 #### **Project Initialization**
-\```sh
-npm install
-\```
+sh
+
+    npm install
+
 
 #### **Development Mode with Hot Reloading**
-\```sh
-npm run dev
-\```
+sh
+
+    npm run dev
+
 
 #### **Production Build & Minification**
-\```sh
-npm run build
-\```
+
+    npm run build
+
