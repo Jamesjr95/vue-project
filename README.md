@@ -4,46 +4,48 @@ Weather Watch
 
 [![](screenshot/loc-weather-1.PNG)](https://localweatherwatch.netlify.app/)
 
-## Features:
-* The user can see weather for various cities
-* The user can track and untrack the weather for saved cities
-* The user can see the hourly/weekly/daily forecast for cities
-* Simple modern design based on the Tailwind css framework
-* Built to be mobile friendly
+Core Functionalities:
 
-## Built With:
-* Vue
-* Node js
-* Tailwind css
+    Dynamic Weather Metrics: Obtain intricate weather details for an array of global cities.
+    City Weather Profiling: Effortlessly track and de-register cities from your personalized monitoring list.
+    Granular Forecasting: Experience detailed forecasting capabilities with hourly, daily, and weekly meteorological breakdowns.
+    Responsive Design Architecture: Boasts an elegant, modern interface built atop the Tailwind CSS framework, ensuring an optimal viewing experience on all devices.
 
-## Todos:
-1. ~~Add ability to save cities~~
-2. ~~show weekly forecast~~
-3. Add support for celsius
-4. Improve user experience by adding loading animation when viewing cities
+Technological Stack:
 
-## Recommended IDE Setup:
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+    Frontend Framework: Vue.js, providing a reactive and component-oriented user interface.
+    Backend Infrastructure: Node.js, enabling efficient data processing and API management.
+    Styling & UI: Leveraging Tailwind CSS for its utility-first paradigm, ensuring a modular and scalable design.
 
-## Customize configuration
+Development Roadmap:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+~~Implement city registration feature.~~
+~~Integrate weekly forecasting module.~~
+Introduce Celsius temperature metric.
+Enhance UI interactivity with sleek loading animations for city data retrieval.
 
-## Project Setup
+Suggested Development Environment:
 
-```sh
-npm install
-```
+For an optimal development experience, utilize VSCode coupled with Volar for Vue.js development. It's advisable to deactivate Vetur in favor of TypeScript Vue Plugin (Volar).
+Configurations & Customizations:
 
-## Compile and Hot-Reload for Development
+For advanced configurations and integrations, refer to the Vite Configuration Reference.
+Local Development Instructions:
 
-```sh
-npm run dev
-```
+Project Initialization:
 
-## Compile and Minify for Production
+sh
 
-```sh
-npm run build
-```
+    npm install
 
+Development Mode with Hot Reloading:
+
+sh
+
+    npm run dev
+
+Production Build & Optimization:
+
+sh
+
+    npm run build
